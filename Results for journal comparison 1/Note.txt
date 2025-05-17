@@ -1,0 +1,15 @@
+Test run #   ----		Random seed for inital DT 	---		Random seed for update
+	2 							100									100
+-------------------------------------------------
+It contains results that used for comparison studies.
+
+Test run #: 1
+
+Tested problems to save running time:
+	1. Battery discharging
+	2. Engine p21 (p1 in the paper)
+
+Comparison studies:
+	1. Comparison of time-series forecasting method -- AE-Transformer per model
+	2. Effects of dependencies among DT model hidden layers -- AE-LSTM per layer
+	3. Comparison of feature extraction method -- POD-LSTM per model
